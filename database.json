@@ -1,90 +1,114 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "Chris",
-            "breed": "Pitbull",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 1,
-            "name": "Bubbles",
-            "breed": "Chihuahua",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "Jane Dog",
-            "breed": "Lhasa Apso",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 1,
-            "name": "Loretta",
-            "breed": "Australian Cattle Dog",
-            "customerId": 4,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Kenneth Dedmon",
-            "address": "8645 Oak Valley St"
-        },
-        {
-            "id": 3,
-            "name": "Lisa Easterling",
-            "address": "2 Cardinal Lane"
-        },
-        {
-            "id": 4,
-            "name": "Lindsay Walker",
-            "address": "323 Ramblewood St"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Emma Beaton",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Josie Winters",
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "Charlie Smith",
-            "locationId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Chris",
+      "breed": "Pitbull",
+      "locationId": 3,
+      "customerId": 2
+    },
+    {
+      "id": 3,
+      "name": "Bubbles",
+      "breed": "Chihauhau",
+      "locationId": 2,
+      "customerId": 3
+    },
+    {
+      "id": 4,
+      "name": "Jane Dog",
+      "breed": "Lhasa Apso",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Loretta",
+      "breed": "Australian Cattle Dog",
+      "customerId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 6,
+      "name": "Oscar",
+      "breed": "Tabby cat",
+      "locationId": 3,
+      "customerId": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Kenneth Dedmon",
+      "address": "8645 Oak Valley St"
+    },
+    {
+      "id": 3,
+      "name": "Lisa Easterling",
+      "address": "2 Cardinal Lane"
+    },
+    {
+      "id": 4,
+      "name": "Lindsay Walker",
+      "address": "323 Ramblewood St",
+      "email": "lindsay@walkerjewelry.com"
+    },
+    {
+      "address": "77 Millenium Dr",
+      "email": "madelinecrowley@gmail.com",
+      "name": "Madeline Crowley",
+      "id": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Emma Beaton",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Josie Winters",
+      "locationId": 1
+    },
+    {
+      "name": "John Doe",
+      "locationId": 2,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Daryl Jones",
+      "locationId": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "229 Emory Drive"
+    },
+    {
+      "name": "Nashville East",
+      "address": "500 Main St",
+      "id": 3
+    }
+  ]
 }
